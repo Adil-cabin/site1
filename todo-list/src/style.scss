@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+.wp-block-create-block-todo-list {
+  .todo-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    
+    &.completed {
+      text-decoration: line-through;
+      color: #718096;
+    }
+  }
+}

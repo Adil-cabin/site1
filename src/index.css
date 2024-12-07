@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root[dir="rtl"] {
+  font-family: 'Noto Kufi Arabic', 'Poppins', sans-serif;
+}
+
+body {
+  @apply antialiased text-gray-900 bg-gray-50;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  .lg\:text-right {
+    text-align: left;
+  }
+
+  .lg\:text-left {
+    text-align: right;
+  }
+
+  .ml-auto {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .mr-2 {
+    margin-right: 0;
+    margin-left: 0.5rem;
+  }
+
+  .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  .flex-row {
+    flex-direction: row-reverse;
+  }
+
+  .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+}
+
+/* Language-specific styles */
+[lang="ar"] {
+  letter-spacing: 0;
+  line-height: 1.8;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+}
+
+/* RTL-specific transitions */
+[dir="rtl"] .origin-top-right {
+  transform-origin: top left;
+}
+
+/* RTL-specific shadows */
+[dir="rtl"] .shadow-lg {
+  --tw-shadow: -4px 0 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Language switcher styles */
+.language-switcher-button {
+  @apply text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors;
+}
+
+.language-option {
+  @apply block w-full px-4 py-2 text-sm text-gray-900 hover:text-indigo-600 transition-colors;
+}

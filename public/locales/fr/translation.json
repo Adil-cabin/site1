@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "appointment": "Prendre RDV",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "title": "Votre bien-être mental est notre priorité",
+    "subtitle": "Consultez un psychologue professionnel en ligne ou en cabinet. Nous vous accompagnons dans votre parcours vers le mieux-être.",
+    "imageAlt": "Psychologue en consultation",
+    "cta": {
+      "appointment": "Prendre rendez-vous",
+      "services": "Nos services"
+    }
+  },
+  "features": {
+    "title": "Pourquoi nous choisir",
+    "subtitle": "Une approche professionnelle et bienveillante",
+    "description": "Nous mettons notre expertise au service de votre bien-être mental avec un accompagnement sur mesure.",
+    "items": {
+      "availability": {
+        "title": "Disponibilité flexible",
+        "description": "Consultations en ligne ou en cabinet selon vos préférences et votre emploi du temps."
+      },
+      "personalized": {
+        "title": "Approche personnalisée",
+        "description": "Chaque patient est unique. Nous adaptons notre approche à vos besoins spécifiques."
+      },
+      "confidentiality": {
+        "title": "Confidentialité garantie",
+        "description": "Vos informations et nos échanges restent strictement confidentiels."
+      },
+      "qualified": {
+        "title": "Professionnels qualifiés",
+        "description": "Une équipe de psychologues expérimentés et certifiés à votre service."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que disent nos patients",
+    "items": [
+      {
+        "content": "Les séances avec MonPsy m'ont vraiment aidé à surmonter mes difficultés. Je me sens beaucoup mieux maintenant.",
+        "author": "Sarah L.",
+        "role": "Cliente depuis 2022"
+      },
+      {
+        "content": "Un accompagnement professionnel et bienveillant. Je recommande vivement leurs services.",
+        "author": "Mohammed B.",
+        "role": "Client depuis 2021"
+      },
+      {
+        "content": "La flexibilité des consultations en ligne est un vrai plus. Cela m'a permis de suivre ma thérapie malgré mon emploi du temps chargé.",
+        "author": "Fatima R.",
+        "role": "Cliente depuis 2023"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog Santé Mentale",
+    "description": "Découvrez nos articles sur la psychologie, le bien-être mental et le développement personnel.",
+    "sidebar": {
+      "categories": "Catégories",
+      "recentPosts": "Articles Récents"
+    },
+    "categories": [
+      {
+        "id": "anxiety",
+        "name": "Anxiété",
+        "count": 5
+      },
+      {
+        "id": "depression",
+        "name": "Dépression",
+        "count": 3
+      },
+      {
+        "id": "relationships",
+        "name": "Relations",
+        "count": 4
+      },
+      {
+        "id": "personal-development",
+        "name": "Développement Personnel",
+        "count": 6
+      }
+    ],
+    "articles": [
+      {
+        "id": "1",
+        "title": "Comprendre et Gérer l'Anxiété au Quotidien",
+        "excerpt": "Découvrez des techniques efficaces pour gérer l'anxiété et retrouver votre sérénité au quotidien.",
+        "date": "2023-06-15",
+        "category": "Anxiété",
+        "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+      },
+      {
+        "id": "2",
+        "title": "Les Bienfaits de la Thérapie Cognitive Comportementale",
+        "excerpt": "Explorez comment la TCC peut vous aider à transformer vos pensées négatives et améliorer votre bien-être.",
+        "date": "2023-06-10",
+        "category": "Thérapie",
+        "image": "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f"
+      }
+    ],
+    "recentPosts": [
+      {
+        "id": "1",
+        "title": "Comprendre et Gérer l'Anxiété au Quotidien",
+        "date": "15 juin 2023"
+      },
+      {
+        "id": "2",
+        "title": "Les Bienfaits de la Thérapie Cognitive Comportementale",
+        "date": "10 juin 2023"
+      }
+    ]
+  }
+}

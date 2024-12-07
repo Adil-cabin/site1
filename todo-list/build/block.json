@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/todo-list",
+  "version": "0.1.0",
+  "title": "Todo List",
+  "category": "widgets",
+  "icon": "editor-ul",
+  "description": "A simple todo list block to manage tasks.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "todos": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "textdomain": "todo-list",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
